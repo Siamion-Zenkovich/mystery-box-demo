@@ -1,0 +1,135 @@
+.search-bar {
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 12px;
+    gap: 0px 8px;
+    height: 48px;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    width: 40%;
+    cursor: pointer;
+}
+
+.search-bar input {
+    background: none;
+    cursor: pointer;
+    display: flex;
+    -webkit-box-flex: 1;
+    flex: 1 1 0%;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+}
+
+.search-bar input::placeholder {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.user-account {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 3px 9px;
+    text-decoration: none;
+}
+
+.header-c,
+.footer-c {
+    margin: 0 auto;
+    width: 100%;
+}
+.header-c {
+    margin-bottom: 12px;
+}
+.logo img{
+    width: 100%;
+}
+.logo-mob {
+    display: none;
+}
+@media (max-width: 500px) {
+    .footer {
+        margin-top: 240px;
+    }
+    .logo {
+        display: none;
+    }
+    .logo-mob {
+        display: block;
+    }
+}
+
+.story{
+    background-color:#f4f2ef ;
+}
+
+.history{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.history-card{
+    width: 20%;
+}
+
+
+.comments {
+    padding: 20px 0;
+  }
+  
+  .footerCont p {
+    color: black;
+    margin-bottom: 15px;
+    font-size: 17px;
+  }
+  
+  .footerCont {
+    padding-top: 50px;
+  }
+  
+  .footerCont img {
+    width: 200px;
+    height: auto;
+    padding: 10px 0;
+  }
+  
+  .cont {
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 86.1111111111%;
+    transition: 0.3s ease-in-out;
+}
+
+.stars {
+    display: inline-block;
+    font-size: 20px;
+    color: black;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.header__search{
+    display: none;
+}
+
+@media (max-width: 700px) {
+    .search-bar {
+        display: none;
+    }
+    .user {
+        display: none;
+    }
+    .header__ico {
+        display: none;
+    }
+
+    .header__search{
+        display: block;
+    }
+}
